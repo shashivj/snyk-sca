@@ -12,5 +12,5 @@ Actions:
       Sources:
         - WorkflowSource
     Configuration:
-      SnykAuthToken : 'a66123ed-c805-48df-998a-e8d92711407a'
+      SnykAuthToken : ${Secrets.SNYK_TOKEN}
 
