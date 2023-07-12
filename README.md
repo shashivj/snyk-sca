@@ -1,11 +1,10 @@
+
 # About the "Snyk" action
-<!--
-- Explain why your customers would use this action. 
-- What does it offer? 
-- What is the end goal of using this action? 
-- If it is similar to another action, what makes it unique? 
-- Example content follows.
---->
+
+# snyk-action
+* Add a brief paragraph or two that summarizes the purpose and function of this repository.
+* You could add relevant links for the consumers of this repository.
+* Vulnerabilites scanning and Software Compostion Analysis with Snyk.
 
 The **Snyk** action greets a person by name with a hello message.
 
