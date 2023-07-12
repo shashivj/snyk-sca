@@ -1,0 +1,17 @@
+Name: AWSCodeBuildAction-CI-Validation
+SchemaVersion: "1.0"
+Triggers:
+  - Type: PullRequest
+    Events: [ open, revision ]
+    Branches:
+      - feature-.*
+Actions:
+  ValidateAWSCodeBuildAction:
+    Identifier: .
+    Inputs:
+      Sources:
+        - WorkflowSource
+    Configuration:
+      AWSCodeBuildProject : 'TEST'
+      AWSRegion : 'TEST'
+

@@ -1,0 +1,21 @@
+
+    SchemaVersion: '1.0'
+    Name: 'Snyk SCA'
+    Version: '1.0.0'
+    Description: 'Find, prioritize, and fix security vulnerabilities in code with Snyk SCA'
+    Configuration:
+      SnykAuthToken:
+        Description: 'Find Auth Token from Snyk account'
+        Required: true
+        DisplayName: 'Snyk Auth Token'
+        Type: string
+        Default: 'SNYK_TOKEN'
+    Inputs:
+      Sources:
+        Required: false
+      Artifacts: 
+        Required: false
+    Runs:
+      Using: 'node16'
+      Main: 'dist/index.js'
+  

@@ -1,0 +1,16 @@
+Name: Snyk-CI-Validation
+SchemaVersion: "1.0"
+Triggers:
+  - Type: PullRequest
+    Events: [ open, revision ]
+    Branches:
+      - feature-.*
+Actions:
+  ValidateSnyk:
+    Identifier: .
+    Inputs:
+      Sources:
+        - WorkflowSource
+    Configuration:
+      SnykAuthToken : ${Secrets.SNYK_TOKEN}
+
