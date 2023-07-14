@@ -5,13 +5,9 @@ Amazon CodeCatalyst offers a faster planning, development, and delivery lifecycl
 In this Repo, we will develop Snyk Action, to find vulnerabilities in your code, open source dependencies, containers, and IaC. 
 
 
-# snyk-action
-* Add a brief paragraph or two that summarizes the purpose and function of this repository.
-* You could add relevant links for the consumers of this repository.
-* Vulnerabilites scanning and Software Compostion Analysis with Snyk.
-
-The **Snyk** action greets a person by name with a hello message.
-
+# snyk-action - The Snyk action tests the following
+* snyk test - tests your source code.
+* snyk monitor - creates monitoring report and makes it available in Snyk Projects.
 
 ## Basic example
 <!--
