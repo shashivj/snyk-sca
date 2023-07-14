@@ -1,5 +1,9 @@
 
-# About the "Snyk" action
+# About the "Snyk-SCA" action
+Amazon CodeCatalyst offers a faster planning, development, and delivery lifecycle where developers can quickly and easily develop applications on AWS. Software security is often set in the context of the code we write and libraries we use. As infrastructure as code (IaC) becomes more prevalent, projects are being driven by more Agile and DevOps software development lifecycles (SDLCs), introducing more software development workflows to software security.
+
+In this Repo, we will develop Snyk Action, to find vulnerabilities in your code, open source dependencies, containers, and IaC. 
+
 
 # snyk-action
 * Add a brief paragraph or two that summarizes the purpose and function of this repository.
